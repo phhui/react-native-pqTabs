@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View,FlatList,SectionList,DeviceEventEmitter,Alert,TouchableOpacity,Dimensions } from 'react-native';
-import { Container, Header, Title,List,ListItem, Content,Card, CardItem,H3,Thumbnail} from 'native-base';
+import { StyleSheet, Text, View,Dimensions } from 'react-native';
 
 class DataList extends Component {
   render() {

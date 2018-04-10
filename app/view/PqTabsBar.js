@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { View,Text,Alert,StyleSheet,FlatList,TouchableOpacity,DeviceEventEmitter,ScrollView } from 'react-native';
+import { View,Text,StyleSheet,DeviceEventEmitter,ScrollView } from 'react-native';
 import {List, ListItem,Button} from 'native-base';
-import { TabViewAnimated, TabBar, SceneMap } from 'react-native-tab-view';
 import PqTabsContent from './PqTabsContent';
 
 class PqTabsBar extends Component {

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { AppRegistry, Text, View,DeviceEventEmitter,TouchableOpacity,Alert,StyleSheet} from 'react-native';
-import { Header,Button, Title,Icon} from 'native-base';
+import { Text, View,DeviceEventEmitter,StyleSheet} from 'react-native';
+import { Button, Title,Icon,Header} from 'native-base';
 //0菜单 1返回+菜单 2返回 3返回+分享
 class Banner extends Component {
     goBack(page,param){

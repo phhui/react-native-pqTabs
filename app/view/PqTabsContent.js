@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View,Text,Alert,StyleSheet,ViewPagerAndroid,TouchableOpacity,DeviceEventEmitter,ScrollView } from 'react-native';
+import { View,Text,StyleSheet,ViewPagerAndroid,DeviceEventEmitter } from 'react-native';
 import DataList from './DataList';
 
 class PqTabsContent extends Component {
